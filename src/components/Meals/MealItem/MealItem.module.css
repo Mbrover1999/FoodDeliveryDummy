@@ -1,0 +1,38 @@
+.meal {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    direction: rtl;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.meal h3 {
+    margin: 0 0 0.25rem 0;
+    display: flex;
+    justify-content: flex-start;
+}
+.meal img{
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.description {
+    font-style: italic;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.price {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0.25rem;
+    font-weight: bold;
+    color: green;
+    font-size: 1.25rem;
+}
