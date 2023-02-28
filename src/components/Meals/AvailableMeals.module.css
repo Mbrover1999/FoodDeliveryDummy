@@ -9,6 +9,11 @@
     text-decoration-line: underline;
 }
 
+.MealsLoading{
+    margin-top: 300px;
+    text-align: center;
+    direction: rtl;
+}
 
 
 .meals ul {
